@@ -7,10 +7,9 @@ A web application prototype for tracking internship applications. Built for the 
 InternTrack helps students keep track of their internship applications in one place. Users can log in, view a dashboard with charts, manage their applications, and keep a list of companies. All sample data is fictional. There is no database: login is simulated with hardcoded credentials, and anything a user adds or edits is saved in the browser using localStorage.
 
 ## Live Demo
-
-This project can be published with GitHub Pages.
-After enabling Pages in the repository settings, set the source to **GitHub Actions**.
-
+- Website: https://atiqahhfatiin-blip.github.io/interntrack-app/
+- Repository: https://github.com/atiqahhfatiin-blip/interntrack-app
+  
 ## Features
 
 ### Authentication
@@ -76,14 +75,32 @@ After enabling Pages in the repository settings, set the source to **GitHub Acti
 
 ## Frameworks and Libraries Used
 
-- [Bootstrap 5.3](https://getbootstrap.com/) - layout, components, modals, toasts and responsive design
-- [Bootstrap Icons 1.11](https://icons.getbootstrap.com/) - icons
-- [Chart.js 4.4](https://www.chartjs.org/) - data visualisation
-- HTML5, CSS3 and vanilla JavaScript
+## Bootstrap Components Used
+
+Bootstrap 5.3 is loaded through the jsDelivr CDN. Components used in this project:
+
+| Component | Where it is used | Documentation |
+| Grid system | Page layout on all pages | [Grid](https://getbootstrap.com/docs/5.3/layout/grid/) |
+| Navbar | Responsive navigation bar with hamburger menu | [Navbar](https://getbootstrap.com/docs/5.3/components/navbar/) |
+| Dropdowns | Profile menu in the navigation bar | [Dropdowns](https://getbootstrap.com/docs/5.3/components/dropdowns/) |
+| Cards | Summary cards, charts and company cards | [Cards](https://getbootstrap.com/docs/5.3/components/card/) |
+| Buttons | Login, add, export and action buttons | [Buttons](https://getbootstrap.com/docs/5.3/components/buttons/) |
+| Forms and input groups | Login form and add/edit forms | [Forms](https://getbootstrap.com/docs/5.3/forms/overview/), [Input group](https://getbootstrap.com/docs/5.3/forms/input-group/) |
+| Form validation | Error messages on empty or invalid fields | [Validation](https://getbootstrap.com/docs/5.3/forms/validation/) |
+| Modal | Add and edit popup forms | [Modal](https://getbootstrap.com/docs/5.3/components/modal/) |
+| Toasts | Success and info messages | [Toasts](https://getbootstrap.com/docs/5.3/components/toasts/) |
+| Alerts | Login error message | [Alerts](https://getbootstrap.com/docs/5.3/components/alerts/) |
+| Badges | Status labels and deadline warnings | [Badges](https://getbootstrap.com/docs/5.3/components/badge/) |
+| Tables | Applications table | [Tables](https://getbootstrap.com/docs/5.3/content/tables/) |
+| Pagination | Applications table pages | [Pagination](https://getbootstrap.com/docs/5.3/components/pagination/) |
+| List group | Recent applications on the dashboard | [List group](https://getbootstrap.com/docs/5.3/components/list-group/) |
+| Color modes | Light and dark mode | [Color modes](https://getbootstrap.com/docs/5.3/customize/color-modes/) |
+| Bootstrap Icons | Icons across the website | [Bootstrap Icons](https://icons.getbootstrap.com/) |
+
+Other libraries: [Chart.js](https://www.chartjs.org/docs/latest/) for the charts
 
 ## Project Structure
 
-```
 interntrack/
 ├── index.html            (login page)
 ├── dashboard.html
@@ -106,4 +123,4 @@ interntrack/
 
 ## Author
 
-Atin comel kiyowo - IMS566, Universiti Teknologi MARA
+Fatin Atiqah - IMS566, Universiti Teknologi MARA
